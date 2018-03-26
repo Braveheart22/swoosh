@@ -8,4 +8,7 @@
     <string name="logo">logo</string>
     <string name="next">NEXT</string>
     <string name="league_background">league background</string>
+    <string name="womens">WOMENS</string>
+    <string name="mens">MENS</string>
+    <string name="co_ed">CO-ED</string>
 </resources>
