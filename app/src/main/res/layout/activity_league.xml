@@ -55,7 +55,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
-        android:text="Desired League:"
+        android:text="@string/desired_league"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,10 +79,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
-            android:text="ToggleButton"
+            android:text="@string/mens"
             android:textColor="@android:color/white"
-            android:textOff="MENS"
-            android:textOn="MENS" />
+            android:textOff="@string/mens"
+            android:textOn="@string/mens" />
 
         <ToggleButton
             android:id="@+id/toggleButton2"
@@ -92,10 +92,10 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
-            android:text="ToggleButton"
+            android:text="@string/womens"
             android:textColor="@android:color/white"
-            android:textOff="WOMENS"
-            android:textOn="WOMENS" />
+            android:textOff="@string/womens"
+            android:textOn="@string/womens" />
 
         <ToggleButton
             android:id="@+id/toggleButton3"
@@ -103,10 +103,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
-            android:text="ToggleButton"
+            android:text="@string/co_ed"
             android:textColor="@android:color/white"
-            android:textOff="CO-ED"
-            android:textOn="CO-ED" />
+            android:textOff="@string/co_ed"
+            android:textOn="@string/co_ed" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
