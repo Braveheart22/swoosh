@@ -1,8 +1,9 @@
-package com.johnstrack.swoosh
+package com.johnstrack.swoosh.Controller
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import com.johnstrack.swoosh.R
 
 open class BaseActivity : AppCompatActivity() {
 
