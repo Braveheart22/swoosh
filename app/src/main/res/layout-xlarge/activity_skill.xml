@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/beginnerballerbg" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView4"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -45,7 +45,7 @@
         android:textSize="42sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@id/imageView4" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -67,6 +67,8 @@
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
             android:onClick="onBeginnerClick"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
             android:text="@string/beginner"
             android:textColor="@android:color/white"
             android:textOff="@string/beginner"
@@ -82,6 +84,8 @@
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
             android:onClick="onBallerClick"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
             android:text="@string/baller"
             android:textColor="@android:color/white"
             android:textOff="@string/baller"
@@ -99,6 +103,8 @@
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
         android:onClick="onSkillFinishClicked"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
         android:text="@string/finish"
         android:textColor="@android:color/white"
         android:textSize="42sp"
